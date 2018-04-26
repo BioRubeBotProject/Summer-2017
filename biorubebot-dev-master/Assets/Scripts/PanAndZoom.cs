@@ -20,12 +20,12 @@ public class PanAndZoom : MonoBehaviour
 	public float mapHeight = 40.0f;
 	public Canvas _canvas;
 
-	public GameObject menuBtn;
+	//public GameObject menuBtn;
 	public GameObject resetBtn;
 	public GameObject playBtn;
 	public GameObject pauseBtn;
 	public GameObject ffwBtn;
-	public GameObject tutorialBtn;
+	//public GameObject tutorialBtn;
 
 	private float lastZoomDistance = float.PositiveInfinity; //should be reset to infinite on touch end
 	private float maxZoomOut = 50;
@@ -46,8 +46,8 @@ public class PanAndZoom : MonoBehaviour
 	
 	void Update () 
 	{
-		menuBtn.SetActive (true);
-		tutorialBtn.SetActive (true);
+		//menuBtn.SetActive (true);
+		//tutorialBtn.SetActive (true);
 		resetBtn.SetActive (true);
 		playBtn.SetActive (true);
 		pauseBtn.SetActive (true);
@@ -78,8 +78,8 @@ public class PanAndZoom : MonoBehaviour
 			if (touches.Length == 2) {//--> zoom
 					
 				//disable GUI controls while zooming (if they're not disabled jump around while zooming)
-				menuBtn.SetActive (false);
-				tutorialBtn.SetActive (false);
+				//menuBtn.SetActive (false);
+				//tutorialBtn.SetActive (false);
 				resetBtn.SetActive (false);
 				playBtn.SetActive (false);
 				pauseBtn.SetActive (false);

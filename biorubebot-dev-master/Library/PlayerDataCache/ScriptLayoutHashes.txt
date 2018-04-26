@@ -1,4 +1,4 @@
-WindowsStandalone
+iOS
 SceneListBegin?
 Assets/Scenes/MainMenu1.unity
 Assets/Scenes/MainMenu2.unity
@@ -98,7 +98,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 ddffee96f0d6d59066aa9fbc8cd20335 Assembly-UnityScript-firstpass.dll:.SmoothFollow
-fec66863302b6330152f4ca8ce90a4ae Assembly-CSharp.dll:.PanAndZoom
+67e4348d3ce0b61e96b6b98204c40bdc Assembly-CSharp.dll:.PanAndZoom
 9ff20f98820ded3ee9433847cdf0a7d3 Assembly-CSharp.dll:Pathfinding.FunnelModifier
 6c156248975c65e334daa4cbfba64bd1 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectActivator
 88eb247ffc59c57d05278320426aba9e Assembly-CSharp.dll:.GTP_CmdCtrl

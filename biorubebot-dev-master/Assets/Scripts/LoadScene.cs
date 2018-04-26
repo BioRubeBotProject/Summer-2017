@@ -9,7 +9,8 @@ public class LoadScene : MonoBehaviour
 
     //Restart current scene
     public void restartbutton()
-    {    
+    {
+        //SceneManager.LoadScene(Application.loaddedLevel);
         Application.LoadLevel(Application.loadedLevel);
         GameWon.Set_WinConditions();
     }
@@ -17,13 +18,15 @@ public class LoadScene : MonoBehaviour
     //Load next scene
     public void loadNextScene()
     {
-        Application.LoadLevel(nextScene);
+        //Application.LoadLevel(nextScene);
+        SceneManager.LoadScene(nextScene);
         GameWon.Set_WinConditions();
     }
     
     public void loadHomeMenu()
     {
-        Application.LoadLevel(homeMenuScene);
+        // Application.LoadLevel(homeMenuScene);
+        SceneManager.LoadScene(homeMenuScene);
         GameWon.Set_WinConditions();
     }
 

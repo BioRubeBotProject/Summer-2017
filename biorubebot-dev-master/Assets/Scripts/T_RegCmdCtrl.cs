@@ -34,7 +34,7 @@ public class T_RegCmdCtrl : MonoBehaviour, Roam.CollectObject {
 
     // Use this for initialization
     void Start () {
-		GameObject gameControllerObject = GameObject.FindWithTag("GameController");
+		//GameObject gameControllerObject = GameObject.FindWithTag("GameController");
 		this.gameObject.GetComponent<CircleCollider2D> ().enabled = false;
 		isActive = true;
 		midpointSet = false;
