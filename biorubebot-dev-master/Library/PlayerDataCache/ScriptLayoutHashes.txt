@@ -1,4 +1,4 @@
-iOS
+WindowsStandalone
 SceneListBegin?
 Assets/Scenes/MainMenu1.unity
 Assets/Scenes/MainMenu2.unity
