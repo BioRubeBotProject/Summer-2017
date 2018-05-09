@@ -23,4 +23,4 @@ master branch in this repository into a release branch in
 biorubebot-production.  Once it's confirmed this is working, that branch
 will be merged into the master branch in the production repository.
 
-The Project is currently compiled under Unity Version 5.5.0f3.
+The Project is currently compiled under Unity Version 2017.3.0f3.
